@@ -1,0 +1,69 @@
+.card-container {
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.poster {
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0 3px 3px;
+
+}
+
+.meta-data-container {
+  padding: 15px;
+}
+
+.meta-data-container h1{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.2em;
+}
+
+.meta-data-container .additional-details{
+  margin: 35px 0 20px;
+}
+
+.meta-data-container .genre-list{
+  display: block;
+  font-size: 1.4em;
+}
+
+.meta-data-container .production-list {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.meta-data-container .release-details > div:nth-child(n+3){
+  margin-top: 15px;
+}
+
+.meta-data-container .meta-data{
+  display: block;
+  font-size: 1.6em;
+  line-height: 1.1em;
+}
+
+.tagline {
+  display: block;
+  padding-bottom: 0.25em;
+  font-size: 1.3em;
+}
+
+@media(max-width: 767.98px) {
+  .meta-data-container {
+    padding: 25px;
+  }
+}
+
+@media(max-width: 991.98px) {
+  .poster-container .poster {
+    border-radius: 3px 0 0 3px;
+  }
+  .meta-data-container{
+    padding: 25px;
+  }
+  .meta-data-container h1{
+    font-size: 2.5em;
+  }
+}

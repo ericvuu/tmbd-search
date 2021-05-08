@@ -21,7 +21,6 @@ function App() {
         homepage: res.data.homepage,
         poster: res.data.poster_path,
         production: res.data.production_companies,
-        production_countries: res.data.production_countries,
         genre: res.data.genres,
         release: res.data.release_date,
         vote: res.data.vote_average,
@@ -40,8 +39,10 @@ function App() {
 
   return (
     <div className="App">
-      <Search getMovieData={getMovieData} setMovieID={setMovieID} apiKey={apiKey}/>
-      <Card movieData={movieData}/>
+      <div className="container w-75">
+        <Search getMovieData={getMovieData} setMovieID={setMovieID} apiKey={apiKey}/>
+        <Card movieData={movieData}/>
+      </div>
     </div>
   );
 }
