@@ -8,7 +8,7 @@ function App() {
 
   let apiKey = process.env.REACT_APP_API_KEY;
 
-  let[movieID, setMovieID] = useState("157336");
+  let[movieID, setMovieID] = useState("13");
   let [movieData, setMovieData] = useState({});
 
   let getMovieData = (url) => {

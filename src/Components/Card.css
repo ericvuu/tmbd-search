@@ -1,6 +1,7 @@
 .card-container {
   border-radius: 3px;
   background: rgba(0, 0, 0, 0.85);
+  color: ghostwhite;
 }
 
 .poster {
@@ -27,6 +28,7 @@
 .meta-data-container .genre-list{
   display: block;
   font-size: 1.4em;
+  color: #90cea1;
 }
 
 .meta-data-container .production-list {
@@ -42,12 +44,14 @@
   display: block;
   font-size: 1.6em;
   line-height: 1.1em;
+  color: #90cea1;
 }
 
 .tagline {
   display: block;
   padding-bottom: 0.25em;
   font-size: 1.3em;
+  color: #90cea1;
 }
 
 @media(max-width: 767.98px) {

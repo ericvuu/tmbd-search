@@ -17,3 +17,14 @@
   margin: 30px 0;
   width: 100%;
 }
+
+.searchbox input[type="text"]{
+  width: 100%;
+  box-sizing: border-box;
+  background: rgba(0,0,0,0.3);
+  border: 2px solid #fff;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #fff;
+  outline: none;
+}

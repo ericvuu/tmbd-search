@@ -35,7 +35,7 @@ const Search = ({getMovieData, setMovieID, apiKey}) => {
           <form className="searchbox" onSubmit={handleSubmit}>
             <input
               className="searchbox__input typeahead form-control"
-              type="search"
+              type="text"
               placeholder="Search Movie Title..."
               value={searchTerm}
               onChange={handleOnChange}
